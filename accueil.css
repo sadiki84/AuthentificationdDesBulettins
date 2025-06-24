@@ -1,0 +1,44 @@
+.principale {
+  min-height: 350px;
+  background-image: url('vue/télécharger\ \(3\).jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.principale .container {
+  background: rgba(0,0,0,0.5);
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+.image-eleves {
+  width: 100%;
+  height: 300px;
+  background-image: url('vue/Un\ enseignant\ noir\ enseignant\ en\ classe\ _\ Image\ Premium\ générée\ à\ base\ d’IA.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.navbar-nav .nav-link {
+  color: #1a237e;
+  font-weight: 500;
+  transition: color 0.2s, border-bottom 0.2s;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+  color: #1565c0;
+  border-bottom: 2px solid #1565c0;
+  background: #e3f2fd;
+}
+.lien-footer {
+  text-decoration: none;
+  color: #1a237e;
+  transition: color 0.2s;
+}
+
+.lien-footer:hover {
+  color: #1565c0;
+  text-decoration: underline;
+}

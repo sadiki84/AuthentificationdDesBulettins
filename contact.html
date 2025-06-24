@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Ministère de l'EPST</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="contact.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container">
+        <span>Ministère de l'EPST</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="verifier.html">Vérification</a></li>
+          <li class="nav-item"><a class="nav-link" href="resultat.html">Résultat</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h2>Contactez-nous</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nom" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="nom" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">
+            <i class="bi bi-envelope"></i> Envoyer
+          </button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h4>Nos coordonnées</h4>
+        <p>Email : calebsadiki@gmail.com<br>Adresse :Kinshasa/Lemba/Unikin<br>Tél :  +243 896 420 522</p>
+        <div class="mb-3">
+
+          <div class="image-groupe"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-light text-center text-lg-start border-top mt-5">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h5 class="mb-2">Ministère de l'EPST</h5>
+          <p>Authenticité des bulletins scolaires - Lutte contre la fraude.</p>
+        </div>
+        <div class="col-lg-3 mb-4 mb-lg-0">
+          <h6>Liens rapides</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a href="index.html" class="text-dark lien-footer">Accueil</a></li>
+            <li><a href="verifier.html" class="text-dark lien-footer">Vérification</a></li>
+            <li><a href="resultat.html" class="text-dark lien-footer">Résultat</a></li>
+            <li><a href="contact.html" class="text-dark lien-footer">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 mb-4 mb-lg-0">
+          <h6>Contact</h6>
+          <p>Email : calebsadiki@gmail.com<br>Tél : +243 896 420 522</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 bg-dark text-white">
+      © 2024 Ministère de l'EPST. Tous droits réservés.
+    </div>
+  </footer>
+
+  <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

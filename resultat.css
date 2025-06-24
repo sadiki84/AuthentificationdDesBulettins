@@ -1,0 +1,26 @@
+section.container {
+  min-height: 60vh;
+}
+.card {
+  border-radius: 12px;
+}
+.navbar-nav .nav-link {
+  color: #1a237e;
+  font-weight: 500;
+  transition: color 0.2s, border-bottom 0.2s;
+  border-bottom: 2px solid transparent;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+  color: #1565c0;
+  border-bottom: 2px solid #1565c0;
+  background: #e3f2fd;
+}
+.lien-footer {
+  text-decoration: none;
+  color: #1a237e;
+  transition: color 0.2s;
+}
+.lien-footer:hover {
+  color: #1565c0;
+  text-decoration: underline;
+}
